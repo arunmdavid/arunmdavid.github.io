@@ -87,4 +87,7 @@ nav ul li{
 	nav ul{width: 100%;}
 	nav{width: 340px;margin: 0 auto;}
 }
+@media (min-width: 1280px){
+	.container{width:980px;margin-left: auto;margin-right: auto; }
+}
 .clear{clear: both;}
