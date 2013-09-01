@@ -1,0 +1,90 @@
+.col1,.col2,.col3,.col4{
+	float: left;
+}
+.col1{
+	width: 150px;
+}
+.col2,.col3,.col4{
+	margin-top: 10px;
+	width: 220px;
+	margin-left: 50px;
+}
+body{
+	border-top: 3px solid #2980b9;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Titillium Web', sans-serif;
+	background: #ffffff;
+	font-size: 16px;
+}
+.container{
+	margin-left: 70px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color: #34495e;
+}
+a img{
+	border: none;
+}
+.header-img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	background: #eeeeee;
+}
+.header-text{
+	/*font-family: 'Mr Dafoe', cursive;*/
+	font-size: 30px;
+	color: #2980b9;
+	text-align: right;
+}
+nav{
+	margin-top: 30px;
+}
+nav ul{
+	list-style: none;
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0px;
+	padding: 0px;
+	width: 135px;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	list-style-type: none;
+	list-style-image: none;
+}
+.col-content .title{
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.col-content .medium{
+	font-weight: 600;
+}
+.social img{
+	width: 40px;
+	height: 40px;
+}
+.copyright{
+	font-family: Arial,sans-serif;
+	color: #aaaaaa;
+}
+@media (max-width: 780px){
+	header{width: 150px;margin: 0 auto;}
+	.col1,.col2,.col3,.col4{float: none;width: 90%;}
+	.col1{width: 100%;}
+	.container,.col2,.col3,.col4{margin-left: 10px;}
+	nav ul li a{font-weight: bold;}
+	nav ul li{float: left;margin-right: 20px;}
+	nav ul{width: 100%;}
+	nav{width: 340px;margin: 0 auto;}
+}
+.clear{clear: both;}
