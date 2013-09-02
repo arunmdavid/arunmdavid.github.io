@@ -88,6 +88,16 @@ nav ul li{
 	nav ul{width: 100%;}
 	nav{width: 340px;margin: 0 auto;}
 }
+@media (max-width: 480px){
+	nav ul li{margin-right: 10px;}
+	nav{width: 290px;}
+}
+@media (min-width: 781px) and (max-width: 1024px){
+	.col2,.col3,.col4{margin-left: 30px;}
+}
+@media (min-width: 1025px) and (max-width: 1279px){
+
+}
 @media (min-width: 1280px){
 	.container{width:980px;margin-left: auto;margin-right: auto; }
 }
