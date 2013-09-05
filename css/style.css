@@ -77,6 +77,7 @@ nav ul li{
 .copyright{
 	font-family: Arial,sans-serif;
 	color: #aaaaaa;
+	margin-bottom: 20px;
 }
 @media (max-width: 780px){
 	header{width: 150px;margin: 0 auto;}
@@ -102,3 +103,8 @@ nav ul li{
 	.container{width:980px;margin-left: auto;margin-right: auto; }
 }
 .clear{clear: both;}
+.col-content ul{margin:0px;padding-left: 20px;}
+section{margin-bottom:20px;}
+.section,.section a{
+	transition: color 0.5s;
+}
