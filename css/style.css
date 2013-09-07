@@ -1,110 +1,160 @@
 .col1,.col2,.col3,.col4{
-	float: left;
+                float: left;
 }
 .col1{
-	width: 150px;
+                width: 140px;
+                margin-right:10px;
+                text-align:right;
 }
 .col2,.col3,.col4{
-	margin-top: 10px;
-	width: 220px;
-	margin-left: 50px;
+                margin-top: 10px;
+                width: 220px;
+                margin-left: 50px;
 }
 body{
-	border-top: 3px solid #2980b9;
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Titillium Web', sans-serif;
-	background: #ffffff;
-	font-size: 16px;
+                border-top: 3px solid #2980b9;
+                margin: 0px;
+                padding: 0px;
+                font-family: 'Titillium Web', sans-serif;
+                background: #ffffff;
+                font-size: 16px;
 }
 .container{
-	margin-left: 70px;
-	margin-top: 50px;
-	margin-bottom: 20px;
+                margin-left: 70px;
+                margin-top: 50px;
+                margin-bottom: 20px;
 }
 a{
-	text-decoration: none;
-	color: #34495e;
+                text-decoration: none;
+                color: #2980b9;
 }
+.section ul a {color:#333333;}
 a img{
-	border: none;
+                border: none;
+}
+.header-img-container{
+                width: 140px;
+                height: 140px;
+                background-size: 140px 140px;
+                text-align: left;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -o-border-radius: 50%;
+                -ms-border-radius: 50%;
+                background-color: #eeeeee;
+                /*border:2px solid #2980b9;*/
+}
+.header-img-transition{
+        transition: background-image 0.5s;
+        -moz-transition: background-image 0.5s;
+                -webkit-transition: background-image 0.5s;
+                -o-transition: background-image 0.5s;
+                -ms-transition: background-image 0.5s;
 }
 .header-img{
-	width: 140px;
-	height: 140px;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
-	background: #eeeeee;
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -o-border-radius: 50%;
+                -ms-border-radius: 50%;
+                background: #eeeeee;
+                position:absolute;
+                display:none;
 }
 .header-text{
-	/*font-family: 'Mr Dafoe', cursive;*/
-	font-size: 30px;
-	color: #2980b9;
-	text-align: right;
+                /*font-family: 'Mr Dafoe', cursive;*/
+                font-size: 29px;
+                color: #2980b9;
+}
+.logo-text{
+                width: 140px;
+                height: 120px;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -o-border-radius: 50%;
+                -ms-border-radius: 50%;
+                background: #eeeeee;
+                text-align:center;
+                vertical-align:middle;
+                font-size:60px;
+                padding-top:20px;
 }
 nav{
-	margin-top: 30px;
+                margin-top: 30px;
 }
 nav ul{
-	list-style: none;
-	list-style-type: none;
-	list-style-image: none;
-	margin: 0px;
-	padding: 0px;
-	width: 135px;
-	text-align: right;
+                list-style: none;
+                list-style-type: none;
+                list-style-image: none;
+                margin: 0px;
+                padding: 0px;
+                width: 140px;
 }
 nav ul li{
-	list-style: none;
-	list-style-type: none;
-	list-style-image: none;
+                list-style: none;
+                list-style-type: none;
+                list-style-image: none;
+}
+nav ul li a.active{
+        font-weight: bold;
+}
+nav ul li a.active:before{
+content: ">> ";
 }
 .col-content .title{
-	font-weight: 600;
-	margin-bottom: 10px;
-	font-size: 17px;
+                font-weight: 600;
+                margin-bottom: 10px;
+                font-size: 17px;
 }
 .col-content .medium{
-	font-weight: 600;
+                font-weight: 600;
 }
 .social img{
-	width: 40px;
-	height: 40px;
+                width: 40px;
+                height: 40px;
 }
 .copyright{
-	font-family: Arial,sans-serif;
-	color: #aaaaaa;
-	margin-bottom: 20px;
+                font-family: Arial,sans-serif;
+                color: #aaaaaa;
+                margin-bottom: 20px;
 }
 @media (max-width: 780px){
-	header{width: 150px;margin: 0 auto;}
-	.col1,.col2,.col3,.col4{float: none;width: 90%;}
-	.col1{width: 100%;}
-	.container,.col2,.col3,.col4{margin-left: 10px;}
-	nav ul li a{font-weight: bold;}
-	nav ul li{float: left;margin-right: 20px;}
-	nav ul{width: 100%;}
-	nav{width: 340px;margin: 0 auto;}
+                header{width: 150px;margin: 0 auto;}
+                .col1,.col2,.col3,.col4{float: none;width: inherit;}
+                .col1{width: 100%;text-align: center;}
+                .container,.col2,.col3,.col4{margin-left: 10px;margin-right: 10px;}
+                nav ul li a{font-weight: bold;}
+                nav ul li{float: left;margin-right: 20px;}
+                nav ul{width: 100%;}
+                nav{width: 420px;margin: 10px auto;}
 }
 @media (max-width: 480px){
-	nav ul li{margin-right: 10px;}
-	nav{width: 290px;}
+                /*nav ul li{margin-right: 10px;}*/
+                nav{width: 210px;}
 }
 @media (min-width: 781px) and (max-width: 1024px){
-	.col2,.col3,.col4{margin-left: 30px;}
+                .col2,.col3,.col4{margin-left: 30px;}
 }
 @media (min-width: 1025px) and (max-width: 1279px){
-
+ 
 }
 @media (min-width: 1280px){
-	.container{width:980px;margin-left: auto;margin-right: auto; }
+                .container{width:980px;margin-left: auto;margin-right: auto; }
 }
 .clear{clear: both;}
 .col-content ul{margin:0px;padding-left: 20px;}
-section{margin-bottom:20px;}
+.section{margin-bottom:20px;}
 .section,.section a{
-	transition: color 0.5s;
+                transition: color 0.5s;
 }
+img.desaturate {
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+header .desc{font-size:14px;}
