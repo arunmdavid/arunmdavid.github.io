@@ -19,7 +19,7 @@ $('.nav-list').mouseout(function() {
         toggleImages();
     }
     $('.section').css('color','#333333');
-    $('.section a').css('color','#2980b9');
+    $('.section a').css('color','#355E79');
     $('.section img').removeClass('desaturate');
 });
 var currentHeaderImg=0;
