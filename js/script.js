@@ -9,7 +9,7 @@ $(".nav-highlight").mouseover(function() {
     $('.section a').css('color','#cccccc');
     $('.section img').addClass('desaturate');
     $('.section.'+$(this).attr('section-highlight')).css('color','#333333');
-    $('.section.'+$(this).attr('section-highlight')+' a').css('color','#2980b9');
+    $('.section.'+$(this).attr('section-highlight')+' a').css('color','#32688B');
     $('.section.'+$(this).attr('section-highlight')+' img').removeClass('desaturate');
 });
 $('.nav-list').mouseout(function() {
@@ -19,7 +19,7 @@ $('.nav-list').mouseout(function() {
         toggleImages();
     }
     $('.section').css('color','#333333');
-    $('.section a').css('color','#355E79');
+    $('.section a').css('color','#32688B');
     $('.section img').removeClass('desaturate');
 });
 var currentHeaderImg=0;
