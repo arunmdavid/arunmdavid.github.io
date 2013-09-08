@@ -45,7 +45,7 @@ a img{
                 -o-border-radius: 50%;
                 -ms-border-radius: 50%;
                 background-color: #eeeeee;
-                /*border:2px solid #2980b9;*/
+                border:1px solid #2980b9;
 }
 .header-img-transition{
         transition: background-image 0.5s;
@@ -104,9 +104,6 @@ nav ul li{
 nav ul li a.active{
         font-weight: bold;
 }
-nav ul li a.active:before{
-content: ">> ";
-}
 .col-content .title{
                 font-weight: 600;
                 margin-bottom: 10px;
@@ -126,7 +123,7 @@ content: ">> ";
 }
 .clear{clear: both;}
 .col-content ul{margin:0px;padding-left: 20px;}
-.section{margin-bottom:20px;}
+.section{margin-bottom:20px;color: #333333;}
 .section,.section a{
                 transition: color 0.5s;
 }
@@ -136,13 +133,17 @@ filter: grayscale(100%);
 -moz-filter: grayscale(100%);
 filter: grayscale(100%);
 }
-header .desc{font-size:14px;}
+.header .desc{font-size:14px;}
+.sidebar{float: left;}
+.content{float: left;width: 810px;}
 .page-content{margin-left: 50px;}
-.page-sidebar{float: left;}
-.page-content{float: left;width: 760px;}
 .page-title{font-size: 20px;margin-bottom: 10px;}
+.page-copyright{font-family: Arial,sans-serif;
+                color: #aaaaaa;
+                margin-bottom: 20px;margin-top: 20px;text-align: right;}
+.nextline{float: left;}
 @media (max-width: 767px){
-                header{width: 150px;margin: 0 auto;}
+                .header{width: 150px;margin: 0 auto;}
                 .col1,.col2,.col3,.col4{float: none;width: auto;margin-left: 0px;}
                 .col1{width: auto;text-align: center;}
                 .container{margin-left: 15px;margin-right: 15px;}
@@ -150,8 +151,9 @@ header .desc{font-size:14px;}
                 nav ul li{float: left;margin-right: 20px;}
                 nav ul{width: 100%;}
                 nav{width: 420px;margin: 10px auto;}
-                .page-content{width: auto;margin-left: 15px;margin-right: 15px;}
-                .page-sidebar{float: none;}
+                .content{width: auto;margin-left: 15px;margin-right: 15px;}
+                .sidebar{float: none;}
+                .page-content{margin-left: 0px;}
 }
 @media (max-width: 479px){
                 /*nav ul li{margin-right: 10px;}*/
@@ -159,7 +161,7 @@ header .desc{font-size:14px;}
 }
 @media (min-width: 768px) and (max-width: 979px){
                 .container{max-width: 768px;}
-                .page-content{width: 560px;margin-left: 40px;}
+                .content{width: 560px;}
                 /*.col2,.col3,.col4{margin-left: 20px; }*/
 }
 @media (min-width: 1024px) and (max-width: 1280px){
