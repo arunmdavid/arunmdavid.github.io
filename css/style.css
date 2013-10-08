@@ -47,7 +47,7 @@ img{max-width: 100%;width: 100%;}
                 -o-border-radius: 50%;
                 -ms-border-radius: 50%;
                 background-color: #eeeeee;
-                border:1px solid #32688B;
+                /*border:1px solid #32688B;*/
 }
 .header-img-transition{
         transition: background-image 0.5s;
@@ -144,6 +144,13 @@ filter: grayscale(100%);
                 color: #aaaaaa;
                 margin-bottom: 20px;margin-top: 20px;text-align: right;}
 .nextline{float: left;}
+.main-title{
+    text-align: center;
+    font-size: 70px;
+    color: #474747;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
 @media (max-width: 767px){
                 .header{width: 150px;margin: 0 auto;}
                 .col1,.col2,.col3,.col4{float: none;width: auto;margin-left: 0px;}
