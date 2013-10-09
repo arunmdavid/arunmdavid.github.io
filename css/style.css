@@ -66,7 +66,7 @@ img{max-width: 100%;width: 100%;}
                 -ms-border-radius: 50%;
                 background: #eeeeee;
                 position:absolute;
-                display:none;
+                /*display:none;*/
 }
 .header-text{
                 /*font-family: 'Mr Dafoe', cursive;*/
