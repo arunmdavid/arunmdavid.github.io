@@ -163,7 +163,7 @@ filter: grayscale(100%);
                 nav ul li{float: left;margin-right: 20px;}
                 nav ul{width: 100%;}
                 nav{width: 380px;margin: 10px auto;}
-                .content{width: auto;margin-left: 15px;margin-right: 15px;}
+                .content{width: auto;/*margin-left: 15px;margin-right: 15px;*/}
                 .sidebar{float: none;}
                 .page-content{margin-left: 0px;}
 }
